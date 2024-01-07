@@ -4,8 +4,8 @@
 ENV['VAGRANT_NO_PARALLEL'] = 'yes'
 
 VAGRANT_API_VERSION = 2
-VAGRANT_BOX         = "generic/ubuntu2204"
-VAGRANT_BOX_VERSION = "4.2.10"
+VAGRANT_BOX         = "generic/ubuntu2204" # or "ubuntu/jammy64"
+VAGRANT_BOX_VERSION = "4.2.16" 
 CPUS_JENKINS_NODE   = 2
 CPUS_DOCKER_NODE    = 2
 MEMORY_JENKINS_NODE  = 4096
